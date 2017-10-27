@@ -24,8 +24,15 @@ a:hover {
 }
 
 .home {
-	background: #fff url(../images/3840x2160/aircraft.jpg) 0 0 no-repeat;
+	background: url(../images/3840x2160/aircraft.jpg) 0 0 no-repeat;
 	background-size: 100% auto;
 	width: 100%;
-	height: 50vh;
+}
+
+.text {
+	color: white;
+	padding: 10%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
 }
