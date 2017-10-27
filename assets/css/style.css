@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -26,13 +28,16 @@ a:hover {
 .home {
 	background: url(../images/3840x2160/aircraft.jpg) 0 0 no-repeat;
 	background-size: 100% auto;
-	width: 100%;
 }
 
 .text {
 	color: white;
-	padding: 10%;
-	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	text-align: justify;
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 2.2em;
+	font-family: 'Rubik Mono One', sans-serif;
 }
