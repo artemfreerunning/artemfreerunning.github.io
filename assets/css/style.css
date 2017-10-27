@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	text-align: right;
+	padding: 25px;
+	background-color: white;
+	word-spacing: 15px;
+}
+
+a {
+	padding: 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+.home {
+	background: #fff url(../images/3840x2160/aircraft.jpg) 0 0 no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 50vh;
+}
