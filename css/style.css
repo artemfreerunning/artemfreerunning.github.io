@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth:700');
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #282c35;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+.block {
+	margin-top: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-bottom: 2px solid #ffffff;
+}
+
+.text {
+	font-size: 1.3em;
+	text-align: justify;
+	color: #0B7189;
+}
+
+
+.colortext {
+	color: #9C95DC;
+}
