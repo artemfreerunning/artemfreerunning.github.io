@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Amaranth:700');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
 
 body {
 	margin: 0 auto;
 	padding: 0;
 	background-color: #282c35;
-	font-family: 'Amaranth', sans-serif;
+	font-family: 'Vollkorn SC', serif;
 }
 
 
 .block {
-	margin-top: 15%;
+	margin-top: 5%;
 	margin-left: 20%;
 	margin-right: 20%;
 	border-bottom: 2px solid #ffffff;
