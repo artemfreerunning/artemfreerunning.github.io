@@ -1,1 +1,0 @@
-# artemfreerunning.github.io
