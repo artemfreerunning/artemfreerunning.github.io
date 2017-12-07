@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:800');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #D3C4D1 url() 0 0 no-repeat;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
+}
+
+header {
+  padding: 1em;
+  background-color: #56CBF9;
+  word-spacing: 1em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+#text {
+  padding: 1em;
+  height: 50vh;
+  color: #FFFFFF;
+  font-family: 'Spectral SC', serif;
+  font-size: 1.3em;
+}
