@@ -3,36 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="firstticket" rel="insert">Экономика</a>
-			<a href="secondticket" rel="insert">Тэмк</a>
-		</nav>
-	</header>
-
-	<div id="text">
+	<div class="content">
+		<h1 class="header-content">Вариант 1</h1>
+		<p class="text-content">
+			<span class="allotment">1. Типы экономических систем. Особенности рыночной системы.</span>
+			<br>Традиционная. Командная. Рыночная. Смешанная.<br>Рыночная экономика основана на преобладании частной собственности и свободного ценообразования на основе спроса и предложения. Государство не оказывает особой роли в экономике, только регулирует ситуацию в экономике через законы, а лишь регулирует соблюдение этих законов, а любые неровности в экономике легко исправляются "невидимой рукой рынка". Правительство не вмешивается в экономику, но защищает частную собственность, устанавливает законы, способствует беспрепятственной работе и существованию свободных рынков.<br>
+			<span class="allotment">2. Занятость, категории занятости, уровень занятости.</span>
+			<br>Занятость – это деятельность населения, которая связана с удовлетворением личных и общественных потребностей, не противоречащая законодательству и приносящая, как правило, заработок, трудовой доход.<br>
+			<span class="allotment">3. Экономический словарь: Товар.</span>
+			<br>Товар — продукт труда, произведенный для продажи (реализации), включая работы и услуги.</p>
+	</div>
+	<div class="block">
 		
 	</div>
-
-	<script>
-		var firstticket = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, aperiam nesciunt voluptatum quos reprehenderit pariatur quidem nisi aspernatur, porro in incidunt excepturi delectus eligendi ut quasi ipsa. Ratione, culpa enim!'
-		var secondticket = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur veniam quos natus, perferendis saepe doloremque quod est placeat laboriosam recusandae libero dolorem unde expedita hic, corporis odio, non provident aliquid distinctio a eius sequi possimus inventore assumenda. Asperiores quam accusantium, fuga itaque deleniti minus explicabo nam praesentium nisi delectus blanditiis ab saepe, aut doloribus. Error.'
-
-
-
-	$(function() {
-        var insert = $('#text');
-        $('a[rel="insert"]').click(function() {
-          var a = $(this).attr('href');
-          insert.css('display', 'none').html(window[a]).fadeIn(300);
-          return false;
-        });
-      });
-    </script>
-
 </body>
 </html>

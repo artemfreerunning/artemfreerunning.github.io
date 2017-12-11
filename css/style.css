@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Forum|Prosto+One');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	margin: 3em 15em 3em 15em;
+}
+
+.header-content {
+	font-family: 'Prosto One', cursive;
+	font-size: 23px;
+}
+
+.text-content {
+	font-family: 'Kurale', serif;
+	font-size: 20px;
+	border-bottom: 2px solid #ccc;
+	padding: 1em 0 1em 0;
+	text-align: justify;
+}
+
+.allotment {
+	text-decoration: underline;
+}
